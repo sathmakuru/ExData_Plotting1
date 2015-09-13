@@ -15,7 +15,7 @@ par(mfrow=c(2,2))
 plot(extractday,globalActivePower, type="l",xlab="",
                                            ylab="Global Active Power")
 #---- plot 2------
-plot(extractday,voltage,type="s",xlab = "datetime", ylab = "voltage")
+plot(extractday,voltage,type="s",xlab = "datetime", ylab = "Voltage")
 #-----plot 3--------
 plot(extractday,es1, type="s",xlab="",
      ylab="Energy sub metering")
